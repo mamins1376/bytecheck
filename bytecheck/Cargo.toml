@@ -28,7 +28,7 @@ simdutf8 = { version = "0.1", default-features = false, optional = true }
 uuid = { version = "0.8", optional = true }
 
 [features]
-default = ["std"]
+default = []
 verbose = []
 simdutf8_std = ["simdutf8/std"]
 std = ["bytecheck_derive/std"]
